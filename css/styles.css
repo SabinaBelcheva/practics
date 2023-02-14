@@ -1,0 +1,25 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  color: #a0a0a0;
+  text-align: center;
+}
+
+h5 {
+  text-transform: uppercase;
+}
+
+.text_next {
+  font-size: 10px;
+  color: black;
+}
