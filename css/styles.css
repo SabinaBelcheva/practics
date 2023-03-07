@@ -4,12 +4,26 @@ body {
   font-weight: 400;
 }
 
-footer {
-  background-color: #f9f9f9;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-align: center;
 }
 
@@ -29,6 +43,19 @@ p {
 
 h5 {
   text-transform: uppercase;
+}
+
+footer {
+  background-color: #f9f9f9;
+}
+
+.header {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-list-item {
 }
 
 .text_next {
