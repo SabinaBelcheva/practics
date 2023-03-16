@@ -27,35 +27,126 @@ h6 {
   text-align: center;
 }
 
-h1 {
-  font-size: 43px;
+/* Header */
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 25px 38px;
 }
 
-h2 {
-  font-size: 33px;
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-p {
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-list-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.header-nav-link {
   font-size: 14px;
-  color: #a0a0a0;
-  text-align: center;
-}
-
-h5 {
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 1.4px;
   text-transform: uppercase;
 }
 
-footer {
-  background-color: #f9f9f9;
+/* Section Hero */
+
+.hero-section {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../img/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
-.header {
+.hero-title {
+  font-size: 43px;
+  line-height: 46px;
+  color: #ffffff;
 }
-.header-nav {
+
+.hero-text {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+  color: #ffffff;
 }
-.header-nav-list {
+
+.hero-link {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.header-nav-list-item {
+
+/* Section Inspires */
+
+.inspires-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.inspires-subtitles {
+  font-size: 43px;
+  line-height: 58px;
+  margin-bottom: 23px;
+}
+
+.inspires-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: #a0a0a0;
+  margin-bottom: 26px;
+}
+
+.inspires-link {
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.inspires-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.inspires-list-item {
+  text-align: center;
+}
+
+.inspires-list-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.inspires-image {
+  margin-bottom: 50px;
+}
+
+.inspires-item-subtitles {
 }
 
 .text_next {
@@ -77,4 +168,8 @@ footer {
 
 .caption_image {
   font-size: 43px;
+}
+
+footer {
+  background-color: #f9f9f9;
 }

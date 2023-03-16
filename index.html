@@ -20,43 +20,57 @@
   <body>
     <!-- Header Start -->
     <header class="header">
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-list-item">Shop</li>
-          <li class="header-nav-list-item">Explore</li>
-          <li class="header-nav-list-item">
-            <img src="./img/logo.png" alt="logo" />
-          </li>
-          <li class="header-nav-list-item">My Cart</li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">Shop</li>
+            <li class="header-nav-list-item">Explore</li>
+          </ul>
+          <a class="" href="#"><img src="./img/logo.svg" alt="logo" /></a>
+          <a class="header-nav-link" href="#">My Cart</a>
+        </nav>
+      </div>
     </header>
     <!-- Header End -->
     <main>
       <!-- Секція The Desk Shelf System -->
-      <section>
-        <img width="1440" height="504" src="./img/image1.png" alt="table" />
-        <h2 class="caption_image">The Desk Shelf System</h2>
-        <p>Available in Walnut or Maple</p>
-        <p class="text_next">LEARN MORE</p>
+      <section class="hero-section">
+        <h1 class="hero-title">The Desk Shelf System</h1>
+        <p class="hero-text">Available in Walnut or Maple</p>
+        <a href="#" class="hero-link">LEARN MORE</a>
       </section>
 
       <!-- Секція Design Inspires -->
-      <section>
-        <h1>Design Inspires</h1>
-        <p>Build your dream workspace, so you can get your best work done.</p>
-        <p class="text_next">GET STARTED</p>
-        <img width="658" height="441" src="./img/image2.png" alt="desk pads" />
-        <img
-          width="658"
-          height="441"
-          src="./img/image3.png"
-          alt="ladtop stands"
-        />
-        <h3>Desk Pads</h3>
-        <p class="text_next">LEARN MORE</p>
-        <h3>Laptop Stands</h3>
-        <p class="text_next">LEARN MORE</p>
+      <section class="inspires-section">
+        <h2 class="inspires-subtitles">Design Inspires</h2>
+        <p class="inspires-text">
+          Build your dream workspace, so you can get your best work done.
+        </p>
+        <a href="#" class="inspires-link">GET STARTED</a>
+        <ul class="inspires-list">
+          <li class="inspires-list-item">
+            <img
+              class="inspires-image"
+              width="658"
+              height="441"
+              src="./img/image2.png"
+              alt="desk pads"
+            />
+            <h3 class="inspires-item-subtitles">Desk Pads</h3>
+            <a href="#" class="inspires-link">LEARN MORE</a>
+          </li>
+          <li class="inspires-list-item">
+            <img
+              class="inspires-image"
+              width="658"
+              height="441"
+              src="./img/image3.png"
+              alt="ladtop stands"
+            />
+            <h3 class="inspires-item-subtitles">Laptop Stands</h3>
+            <a href="#" class="inspires-link">LEARN MORE</a>
+          </li>
+        </ul>
       </section>
 
       <!-- Секція Featured Products -->
